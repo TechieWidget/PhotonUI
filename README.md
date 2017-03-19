@@ -1,4 +1,4 @@
-# PhotonUI - A javascript framework to create user interfaces
+# PhotonUI - A JavaScript framework that creates user interfaces
 
 [![Build Status](https://travis-ci.org/wanadev/PhotonUI.svg?branch=master)](https://travis-ci.org/wanadev/PhotonUI)
 [![NPM Version](http://img.shields.io/npm/v/photonui.svg?style=flat)](https://www.npmjs.com/package/photonui)
@@ -7,7 +7,7 @@
 [![Dev Dependencies](https://img.shields.io/david/dev/wanadev/PhotonUI.svg?maxAge=2592000)]()
 
 
-PhotonUI javascript framework to create rich web user interfaces without having to manipulate any HTML nor CSS.
+PhotonUI JavaScript framework creates rich web user interfaces without having to manipulate HTML or CSS.
 
 * **Website:** http://wanadev.github.io/PhotonUI/
 * **Quick start:** http://wanadev.github.io/PhotonUI/doc/quick-start.html
@@ -50,19 +50,19 @@ in your page:
 ### NPM and Browserify
 
 If you are using [Browserify][browserify] in your project, a [NPM package][npm]
-is available. To install it, juste type:
+is available. To install it, just type:
 
 ```
 npm install --save photonui
 ```
 
-then, to use it in your project you just have to import PhotonUI:
+Then, you just have to import PhotonUI to use it in your project:
 
 ```js
 var photonui = require("photonui");
 ```
 
-**NOTE:** do not forget to import CSS files in your HTML page:
+**NOTE:** Do not forget to import CSS files into your HTML page:
 
 ```html
 <link rel="stylesheet" href="./node_modules/photonui/dist/photonui-base.css" />
@@ -73,7 +73,7 @@ var photonui = require("photonui");
 ## Hacking
 
 PhotonUI is built using [Grunt][grunt], [Less][less] and
-[Browserify][browserify]. If you want to hack it, you will have to install few
+[Browserify][browserify]. If you want to hack it, you will have to install a few more
 tools.
 
 
@@ -96,14 +96,14 @@ Then install the PhotonUI's dependencies:
 
 ### Building PhotonUI
 
-Once the build stuff and dependencies installed, you just have to run the
+Once the build stuff and dependencies are installed, you just have to run the
 `grunt` command to build PhotonUI:
 
     grunt
 
 All generated files are in the `dist` folder.
 
-**NOTE:** during the development, it can be annoying to run the `grunt` command
+**NOTE:** During development, it can be annoying to run the `grunt` command
 every time you make a change. You can instead run the following command to
 automatically rebuild what changed each time you modify a file:
 
@@ -139,7 +139,7 @@ You can also run manually the tests in your browser:
 ### Git Hooks
 
 To avoid committing bad stuff, you can install a git pre-commit hook that will
-abort the commit if the code contains errors. To install the hooks you just
+abort the commit if the code contains errors. To install the hooks, you just
 have to run the following command:
 
     grunt githooks
